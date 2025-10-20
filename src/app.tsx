@@ -119,7 +119,7 @@ const App = () => {
             iconSize: [32, 32],
             iconAnchor: [16, 16]
           });
-          const marker = L.marker([sign.lat, sign.lng], { icon: customIcon })
+      L.marker([sign.lat, sign.lng], { icon: customIcon }) 
             .addTo(map)
             .bindPopup(`
               <div style="text-align: center; min-width: 180px;">
